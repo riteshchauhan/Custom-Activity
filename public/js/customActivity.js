@@ -134,7 +134,7 @@ define([
                 "customerId": "{{Contact.Attribute.Customer_Master.CustomerId}}",
                 //"eventId": "{{Contact.Attribute.CustActDemo_Master.EventId}}",
                 "keyword": keywordValue,
-                "campaignCode": campaignCodeValue
+                "campaignCode": campaignCodeValue,
                 "fields": fields
             }];
 
