@@ -130,8 +130,8 @@ define([
 
             payload['arguments'].execute.inArguments = [{
                 "tokens": authTokens,
-                "emailAddress": "{{Contact.Attribute.CustActDemo_Master.EmailAddress}}",
-                "customerId": "{{Contact.Attribute.CustActDemo_Master.CustomerId}}",
+                "emailAddress": "{{Contact.Attribute.Customer_Master.EmailAddress}}",
+                "customerId": "{{Contact.Attribute.Customer_Master.CustomerId}}",
                 //"eventId": "{{Contact.Attribute.CustActDemo_Master.EventId}}",
                 "keyword": keywordValue,
                 "campaignCode": campaignCodeValue
