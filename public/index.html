@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title></title>
+    <title>Custom SMS Activity</title>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -26,17 +26,30 @@
 
 <body>
     <div id="step1" class="step">
-        <div class="slds-grid">
-
-            <main class="slds-col">
-               
-                <h1>welcome to your activity!</h1>
-            </main>
-            
-
-        </div>
-
+    <p><small id="version"></small></p>
+    <p/>
+    <h1>Custom SMS Activity</h1>   
+        Select the Keyword:  
+        <select id="keyword">
+            <option value="">Keyword</option>
+            <option value="1">HELP</option>
+            <option value="2">STOP</option>
+            <option value="3">CIRCLE</option>
+            <option value="4">FLASHY</option>
+            <option value="5">OFFER1</option>
+        </select>
+      <br><br>
+      Select the Campaign Code:  
+        <select id="campaignCode">
+            <option value="">Code</option>
+            <option value="1">A1234</option>
+            <option value="2">B2345</option>
+            <option value="3">C3456</option>
+            <option value="4">D4567</option>
+            <option value="5">E5678</option>
+        </select>
     </div>
+            
 </body>
 
 </html>
