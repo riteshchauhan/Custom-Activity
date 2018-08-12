@@ -17,7 +17,7 @@
         "execute": {
            "inArguments":[
 				{
-                    "emailAddress": "{{Contact.Attribute.CustActDemo_Master.EmailAddress}}",
+                    "email_Address": "{{Contact.Attribute.CustActDemo_Master.EmailAddress}}",
 		    "eventId": "{{Contact.Attribute.CustActDemo_Master.EventId}}"
                 }									
 			],
