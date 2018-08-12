@@ -8,8 +8,8 @@
     "type": "REST",
     "lang": {
         "en-US": {
-            "name": "Search",
-          "description": "A Template for a custom Journey Builder activity",
+            "name": "Custom SMS",
+          "description": "Custom Activity to send SMS information",
           "step1Label": "Configure Activity"
         }
     },
@@ -17,8 +17,9 @@
         "execute": {
            "inArguments":[
 				{
-                    "email_Address": "{{Contact.Attribute.CustActDemo_Master.EmailAddress}}",
-		    "eventId": "{{Contact.Attribute.CustActDemo_Master.EventId}}"
+		    "customerId": "{{Contact.Attribute.Customer_Master.CustomerId}}",
+                    "emailaddress": "{{Contact.Attribute.Customer_Master.EmailAddress}}",
+		    
                 }									
 			],
           "outArguments": [],
