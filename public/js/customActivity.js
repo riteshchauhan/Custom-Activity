@@ -124,14 +124,17 @@ define([
         }
 
         function save() {
-            var postcardURLValue = $('#postcard-url').val();
-            var postcardTextValue = $('#postcard-text').val();
+            var keywordValue = $('#keyword').val();
+            var campaignCodeValue = $('#campaignCode').val();
             var fields = extractFields();
 
             payload['arguments'].execute.inArguments = [{
                 "tokens": authTokens,
                 "emailAddress": "{{Contact.Attribute.CustActDemo_Master.EmailAddress}}",
-                "eventId": "{{Contact.Attribute.CustActDemo_Master.EventId}}",
+                "customerId": "{{Contact.Attribute.CustActDemo_Master.CustomerId}}",
+                //"eventId": "{{Contact.Attribute.CustActDemo_Master.EventId}}",
+                "keyword": keywordValue,
+                "campaignCode": campaignCodeValue
                 "fields": fields
             }];
 
