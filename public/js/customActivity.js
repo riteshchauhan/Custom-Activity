@@ -130,7 +130,8 @@ define([
 
             payload['arguments'].execute.inArguments = [{
                 "tokens": authTokens,
-                //"emailAddress": "{{Contact.Attribute.["CustActDemo"].["EmailAddress"]}}",
+                "emailAddress": "{{Contact.Attribute.CustActDemo_Master.EmailAddress}}",
+                "eventId": "{{Contact.Attribute.CustActDemo_Master.EventId}}",
                 "fields": fields
             }];
 
