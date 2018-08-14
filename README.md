@@ -1,6 +1,9 @@
 # Journey Builder Activity Template
 ### Starter template for a messaging JB Activity using Node.JS
 
+#Usecase - Customer uses external SMS Service provider, so as part of a journey a Custom Activity is needed to pass CustomerId, Keyword and Campaign Code information to be able to perform SMS Sends from external service provider.
+Note - this example focuses only on passing the information through custom activity, and not the latter part of extracting the information and Send the SMS.
+
 **NOTE:** This app and the associated code is NOT production quality, its pure purpose is to demonstrate the full flow of custom interactions in Journey Builder
 
 ### Pre-Requisites
